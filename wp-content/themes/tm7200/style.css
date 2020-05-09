@@ -1,0 +1,16 @@
+/*
+Theme Name:tm7200
+Template Theme Uri: https: //srp.ucr.ac.cr
+Author: Brandon
+Author Uri:https: //google.com
+Descripcion: El teme de prueba desarrollo
+Version: 1.0
+Licensed: GNU general public license v2
+*/
+
+h1{
+    font-family: Arial;
+}
+body{
+    background-color:burlywood;
+}
