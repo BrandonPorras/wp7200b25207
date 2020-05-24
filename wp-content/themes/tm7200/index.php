@@ -2,10 +2,32 @@
 
 <!-- start slipsum code -->
 
-<p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass. </p>
 
-<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.  </p>
+<!-- -->
 
+<body id="fondo-landing">
+
+    <!-- URSART Title-->
+    <div class="row justify-content-center mt-5 pt-5">
+
+        <h1 id="logo-landing" class="mt-5">~ Ursart ~</h1>
+
+    </div>
+
+    <!-- Start Button-->
+    <div class="row justify-content-center mt-3">
+<a ></a>
+        <a class="btn-start" href="http://localhost/wordpress/wordpress/historias/"><strong>Start</strong></a>
+
+    </div>
+
+<footer class="row justify-content-center footer">
+
+    <h5 class="copyright">© 2020 Copyright <a class="link" href="#"><strong>URSART</strong>.com</a></h5>
+
+</footer>
+
+</body>
 <!-- end slipsum code -->
 
 <?php get_footer();?>
