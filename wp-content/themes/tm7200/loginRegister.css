@@ -1,0 +1,181 @@
+/*↓↓↓↓↓↓↓↓↓↓↓↓↓ Login page ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓*/
+
+body{
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+.row-login{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.footer {
+    margin-top: 3em;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.copyright{
+    font-size: small;
+}
+
+.link{
+    color: rgb(40,40,40);
+}
+
+.link:hover{
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+
+.justify-login{
+    justify-content: center;
+}
+
+.logo-login{
+    width: 39vw;
+    height: 12vw;
+    background-image: url(image/Ursart_Black.svg);
+    background-size: cover
+}
+
+.margin-b-4{
+    margin-bottom: 1.5rem;
+}
+
+.btn-login{
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    border: none;
+    padding: 0.8em 3vw;
+    color: white;
+    margin-left: 8vw;
+}
+.check_box{
+    margin-top: .3rem;
+    margin-left: -1.25rem;
+}
+
+.btn-login:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+.advice-login{
+    margin-top: 8em;
+}
+
+#fondo-login{
+    background-image: url(image/image_size_login_big.png);
+}
+
+.login-input{
+    width: 100% !important;
+    background-color: #fff0 !important; 
+    border: 2px solid #919191 !important;
+    /*height: 3.3em !important;*/
+    font-weight: bold !important;
+    border-radius: .80rem !important;
+    color: #919191 !important;
+    font-size: 1.2em !important;
+    padding-top: 1.5em !important;
+    padding-bottom: 1.5em !important;
+    padding-left: 1em !important;
+    padding-right: 0 !important;
+}
+.login-input::placeholder{
+    color: #919191 !important;
+}
+
+  .fontAwesome {
+    font-family: Helvetica, 'FontAwesome', sans-serif;
+  }
+
+  @media (min-width: 375px) and (max-width: 1365px) { 
+
+    #fondo-login{
+        background-image: url(image/image_size_login_small.png);
+        background-attachment: fixed;
+    }
+    .logo-login{
+        width: 70vw;
+        height: 21vw;
+        background-image: url(image/Ursart_White.svg);
+        background-size: cover
+    }
+    .justify-login{
+        justify-content: center;
+    }
+    .login-input{
+        width: 70vw !important;
+        background-color: rgba(255, 255, 255, 0.800) !important; 
+        border: 0px solid #919191 !important;
+    }
+    .login-input::placeholder{
+        color: #999999 !important;
+    }
+    .copyright-login{
+        margin-right: 0;
+        color: white;
+    }
+    .link-login{
+        color: white;
+    }
+    .white{
+        color: white;
+    }
+    .btn-login{
+        width: 100%;
+        border: 2px solid #ffffff;
+        background-color: rgba(255, 255, 255, 0);
+        margin-left: -2.5%;
+    }
+    .advice-login{
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 719px) and (max-width: 1365px) { 
+    .login-input{
+        width: 50vw !important;
+    }
+}
+
+/*↑↑↑↑↑↑↑↑↑↑↑↑↑ Login Page ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑*/
+
+/*↓↓↓↓↓↓↓↓↓↓↓↓ Register page ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓*/
+
+#fondo-register{
+    background-image: url(image/image_size_register_big.png);
+}
+
+.footer-register{
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.logo-register{
+    font-size: 10em;
+    text-align: center;
+    font-family: Rockstar;
+}
+
+@media (min-width: 375px) and (max-width: 1365px) { 
+    #fondo-register{
+        background-image: url(image/image_size_register_small.png);
+    }
+    .logo-register{
+        margin-top: 0;
+        margin-right: 0;
+        font-size: 7em;
+        color: white;
+    }
+    .copyright-register{
+        margin-right: 0;
+        color: white;
+    }
+}

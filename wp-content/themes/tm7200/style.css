@@ -1,16 +1,221 @@
-/*
-Theme Name:tm7200
-Template Theme Uri: https: //srp.ucr.ac.cr
-Author: Brandon
-Author Uri:https: //google.com
-Descripcion: El teme de prueba desarrollo
-Version: 1.0
-Licensed: GNU general public license v2
-*/
+@font-face {
+    font-family: Rockstar;
+    src: url("font/Rockstar-Regular.otf") format("opentype");
+} 
 
-h1{
-    font-family: Arial;
+#fondo-landing{
+    background-image: url(image/image_size_big.png);
 }
+
 body{
-    background-color:burlywood;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.copyright{
+    font-size: small;
+}
+
+.link{
+    color: rgb(40,40,40);
+}
+
+.link:hover{
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+
+#logo-landing{
+    text-align: center;
+    font-family: Rockstar;
+    font-size: 18vw;
+}
+
+.btn-start{
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    border: none;
+    padding: 0.8em 3.8em;
+    color: white;
+}
+
+.btn-start:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+@media (min-width: 375px) and (max-width: 1365px) { 
+#fondo-landing{
+    background-image: url(image/image_size_small.png);
+    background-attachment: fixed;
+}
+
+}
+
+@media (min-width: 375px) and (max-width: 677px) { 
+#logo-landing{
+    margin-top: 1.5em !important;
+    font-size: 7em;
+} 
+
+}
+
+@media (min-width: 677px) and (max-width: 1365px) {
+#logo-landing{
+    margin-top: 3vw !important;
+    font-size: 20vw;
+} 
+    
+}
+
+
+/*↑↑↑↑↑↑↑↑↑↑↑↑ Landing Page ↑↑↑↑↑↑↑↑↑↑↑↑↑↑*/
+
+/*↓↓↓↓↓↓↓↓↓↓↓↓↓ Login page ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓*/
+
+.justify-login{
+    justify-content: flex-end;
+}
+
+.logo-login{
+    margin-right: 8vw;
+    font-size: 10em;
+    text-align: center;
+    font-family: Rockstar;
+}
+.btn-login{
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    border: none;
+    padding: 0.8em 14.3vw;
+    color: white;
+    margin-right: 8vw;
+}
+
+.btn-login:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+.copyright-login{
+    margin-right: 17.7vw;
+}
+
+#fondo-login{
+    background-image: url(image/image_size_login_big.png);
+}
+
+.login-input{
+    width: 80% !important;
+    background-color: #fff0 !important; 
+    border: 2px solid #919191 !important;
+    /*height: 3.3em !important;*/
+    font-weight: bold !important;
+    border-radius: .80rem !important;
+    color: #919191 !important;
+    font-size: 1.2em !important;
+    padding-top: 1.5em !important;
+    padding-bottom: 1.5em !important;
+    padding-left: 1em !important;
+    padding-right: 0 !important;
+}
+.login-input::placeholder{
+    color: #919191 !important;
+}
+
+  .fontAwesome {
+    font-family: Helvetica, 'FontAwesome', sans-serif;
+  }
+
+  @media (min-width: 375px) and (max-width: 1365px) { 
+
+    #fondo-login{
+        background-image: url(image/image_size_login_small.png);
+        background-attachment: fixed;
+    }
+    .logo-login{
+        margin-top: 0;
+        margin-right: 0;
+        font-size: 7em;
+        color: white;
+    }
+    .justify-login{
+        justify-content: center;
+    }
+    .login-input{
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.800) !important; 
+        border: 0px solid #919191 !important;
+    }
+    .login-input::placeholder{
+        color: #999999 !important;
+    }
+    .copyright-login{
+        margin-right: 0;
+        color: white;
+    }
+    .link-login{
+        color: white;
+    }
+    .white{
+        color: white;
+    }
+    .btn-login{
+        width: 100%;
+        border: 2px solid #ffffff;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .advice-login{
+        font-size: 0.8em;
+    }
+}
+
+/*↑↑↑↑↑↑↑↑↑↑↑↑↑ Login Page ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑*/
+
+/*↓↓↓↓↓↓↓↓↓↓↓↓ Register page ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓*/
+
+#fondo-register{
+    background-image: url(image/image_size_register_big.png);
+}
+
+.footer-register{
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 2em;
+}
+.copyright-register{
+    margin-right: 18.5vw;
+}
+
+.logo-register{
+    margin-right: 9.050vw;
+    font-size: 10em;
+    text-align: center;
+    font-family: Rockstar;
+}
+
+@media (min-width: 375px) and (max-width: 1365px) { 
+    #fondo-register{
+        background-image: url(image/image_size_register_small.png);
+    }
+    .logo-register{
+        margin-top: 0;
+        margin-right: 0;
+        font-size: 7em;
+        color: white;
+    }
+    .copyright-register{
+        margin-right: 0;
+        color: white;
+    }
 }
