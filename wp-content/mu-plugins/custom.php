@@ -32,6 +32,7 @@ function martin_login_logo() {
          text-align:center !important;
          margin-left: 50vw !important;
          margin-top: 0vh !important;
+         z-index:-1;
      }
   
  .login form {
@@ -39,6 +40,10 @@ function martin_login_logo() {
      border-color:none  !important;
      border: none !important;
      padding: 2vh 2vw !important;     
+ }
+
+ #resetpassform{
+     width:120% !important;
  }
 
  .wp-core-ui .button-primary {
@@ -49,9 +54,10 @@ function martin_login_logo() {
     color: white !important;
     margin-left: 0vw !important;   
     margin-top: 0 !important;
+    margin-bottom: 3vh !important;
     font-weight: bold  !important;
     font-size:2.5vh  !important;
-    display: inline-block;
+ 
 }
 
 .submit{
@@ -98,6 +104,7 @@ padding-left:3.5vw !important;
     margin-left:10vw !important;
     margin-right:10vw !important;
     font-family: Helvetica, 'FontAwesome', sans-serif;
+ ;
 
     
 }
@@ -118,7 +125,26 @@ padding-left:3.5vw !important;
     margin-left:10vw !important;
     margin-right:10vw;
     font-family: Helvetica, 'FontAwesome', sans-serif;
+  
 
+}
+
+#pass1{
+    width: 88% !important;
+    background-color: #fff0 !important; 
+    border: 2px solid #919191 !important;
+    height: 10vh !important;
+    font-weight: bold !important;
+    border-radius: .80rem !important;
+    color: #919191 !important;
+    font-size: 1.2rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    padding-left: 1rem !important;
+    padding-right: 0rem !important;
+    margin-left:10vw !important;
+    margin-right:10vw;
+    font-family: Helvetica, 'FontAwesome', sans-serif;
 }
 
 
@@ -167,7 +193,7 @@ span.dashicons-hidden{
         margin-left:-15vh !important;
         }
 
-
+#message{display:none !important;}
 p.message.register{display:none !important;}
 
 label[for="user_login"]{display:none !important;}
@@ -308,6 +334,24 @@ label[for="user_email"]{display:none !important;}
     margin-right:5vw !important;
     font-family: Helvetica, 'FontAwesome', sans-serif;}
 
+    #pass1{
+     width: 85% !important;
+    background-color: rgba(255, 255, 255, 0.800) !important; 
+    border: 0px solid #919191 !important;
+    height: 10vh !important; 
+    font-weight: bold !important;
+    border-radius: .80rem !important;
+    color: #919191 !important;
+    font-size: 1.2rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 0 !important;
+    margin-left:0vw !important;
+    margin-right:5vw !important;
+    font-family: Helvetica, 'FontAwesome', sans-serif;
+}
+
     #login {
             padding-top: 7vh !important;
             margin-top:0;
@@ -343,6 +387,9 @@ label[for="user_email"]{display:none !important;}
 }
 }
 
+.description {
+    color: white !important;
+}
 
 /*****mobile breakpoint */
 
@@ -383,6 +430,23 @@ label[for="user_email"]{display:none !important;}
     font-family: Helvetica, 'FontAwesome', sans-serif;}
 
     #user_pass.input.password-input{   
+        width: 85% !important;
+    background-color: rgba(255, 255, 255, 0.800) !important; 
+    border: 0px solid #919191 !important;
+    height: 7vh !important; 
+    font-weight: bold !important;
+    border-radius: .80rem !important;
+    color: #919191 !important;
+    font-size: 1.2rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 0 !important;
+    margin-left:0vw !important;
+    margin-right:5vw !important;
+    font-family: Helvetica, 'FontAwesome', sans-serif;}
+
+    #pass1{
         width: 85% !important;
     background-color: rgba(255, 255, 255, 0.800) !important; 
     border: 0px solid #919191 !important;
